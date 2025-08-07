@@ -6,10 +6,91 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-image:url('../../src/imagem\ jogo\ inicial.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 500px;
+  
+   
+
+   align-items: center;
+    
+}
+
+
+
+nav{
+    display: flex;
+    gap: 25px;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    margin-right: 25px;
+}
+
+.titulo{
+    margin-right: 180px;
+    margin-top: 25px;
+}
+
+
+h1{
+    color: #660000;
+    text-shadow: 
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+    font-size: 44px;
+     
+}
+
+.buttonPage1{
+    display: flex;
+    gap: 25px;
+
+}
+
+button{
+    border-radius: 5px;
+    background-color: aliceblue;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(10px);
+    padding: 8px 8px 8px 8px;
+
+}
+
+
+
+
+
+
+.container{
+    /* Alinhamento dos itens */
+    display:flex ;
+    flex-direction: column;
+    border-radius:15px ;
+    max-width: 550px;
+    max-height: 950px;
+    gap: 25px;
+    padding: 40px 20px  40px 20px;
+    justify-self: right;
+    margin: 80px 80px 0 0 ;
+
+    /* Cores do fundo */
+    background-color: aliceblue;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(10px);
+
+    /* Cor da letra */
+    color: #660000;
+    
+}
+
+.rodape{
+    display: flex;
 }
