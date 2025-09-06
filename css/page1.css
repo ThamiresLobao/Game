@@ -43,6 +43,7 @@ h1{
      1px -1px 0 white,
     -1px  1px 0 white,
      1px  1px 0 white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 44px;
      
 }
@@ -91,6 +92,10 @@ button{
     
 }
 
-.rodape{
+footer{
     display: flex;
+    gap: 50px;
+    
+
+
 }
